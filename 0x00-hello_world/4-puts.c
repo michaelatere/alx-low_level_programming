@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string>
 /**
  *  main - Entry point
  *  Description: 'This program prints some charater using the put()'
@@ -7,7 +6,7 @@
  */
 int main(void)
 {
-	char myStr[] = "Programming is like building a multilingual puzzle\n";
+	char myStr[100] = "Programming is like building a multilingual puzzle\n";
 
 	puts(myStr);
 
