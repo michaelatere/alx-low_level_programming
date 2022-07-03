@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string>
 /**
  *  main - Entry point
  *  Description: 'This program prints some charater using the put()'
