@@ -10,11 +10,11 @@ int main(void)
 	int m = 1;
 	int l = 2;
 
-	for (n = ; n < 10; n++)
+	while (n < 10)
 	{
-		for (m < 10)
+		while (m < 10)
 		{
-			for (l < 10)
+			while (l < 10)
 			{
 				if (l > m && m > n)
 				{
