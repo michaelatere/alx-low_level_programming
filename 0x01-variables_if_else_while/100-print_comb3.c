@@ -19,8 +19,8 @@ int main(void)
 		{
 			if (e != i && e < i)
 			{
-				putchar(e);
-				putchar(i);
+				putchar('0'+ e);
+				putchar('0' + i);
 				if (i == 9 && e == 8)
 				{
 					break;
