@@ -7,8 +7,8 @@
 int main(void)
 {
 	int n = 0;
-	int m = 0;
-	int l = 0;
+	int m = 1;
+	int l = 2;
 
 	while (n < 10)
 	{
@@ -26,8 +26,8 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
+					l++;
 				}
-				l++;
 			}
 			m++;
 		}
