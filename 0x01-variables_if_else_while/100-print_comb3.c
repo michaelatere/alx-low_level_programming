@@ -9,19 +9,19 @@ int main(void)
 {
 	int i, e;
 
-	i = 48;
-	e = 48;
+	i = 0;
+	e = 0;
 
-	while (e < 58)
+	while (e < 10)
 	{
-		i = 48;
-		while (i < 58)
+		i = 0;
+		while (i < 10)
 		{
 			if (e != i && e < i)
 			{
 				putchar(e);
 				putchar(i);
-				if (i == 57 && e == 56)
+				if (i == 9 && e == 8)
 				{
 					break;
 				}
